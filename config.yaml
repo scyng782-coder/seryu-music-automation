@@ -1,0 +1,21 @@
+audio: examples/generated/song.wav
+lyrics: examples/generated/lyrics.srt
+logo: examples/generated/logo.png
+media:
+  - {path: examples/generated/image1.png, type: image}
+  - {path: examples/generated/image2.png, type: image}
+  - {path: examples/generated/image3.png, type: image}
+  - {path: examples/generated/clip.mp4, type: video}
+  - {path: examples/generated/image4.png, type: image}
+  - {path: examples/generated/image5.png, type: image}
+  - {path: examples/generated/image6.png, type: image}
+  - {path: examples/generated/image7.png, type: image}
+  - {path: examples/generated/image8.png, type: image}
+output_dir: output
+formats: [youtube, shorts]
+fps: 30
+threads: 2
+preset: fast
+mastering: {integrated_lufs: -14, true_peak_db: -2, loudness_range: 11}
+next_song: {text: '다음 곡: 세류의 밤', seconds: 2}
+font: Noto Sans CJK KR
