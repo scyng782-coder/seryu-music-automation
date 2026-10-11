@@ -2,3 +2,9 @@ __pycache__/
 .venv/
 output/
 examples/generated/
+.venv-ui/
+.venv-ai/
+.env
+.env.*
+seryu-data/
+models/
